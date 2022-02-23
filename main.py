@@ -20,7 +20,6 @@ while choix != "non":
     choix=input("Taper Entrer pour continuer ou 'non' pour arrêter___")
 
     print(f'nom: {nom}, prix: {prix}, quantité: {quantité}')
-    
     produit["nom"]=nom
     produit["prix"]=prix
     produit["quantité"]=quantité
@@ -34,4 +33,4 @@ print(myProductList)
 total=0
 for produit in myProductList:
     total = total + produit["prix"]*produit["quantité"]
-print ("le total est : {}".format(total))
+print ("le total est de : {} !".format(total))
